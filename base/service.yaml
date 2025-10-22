@@ -7,7 +7,7 @@ spec:
   selector:
     app: kargo-demo
   ports:
-  - protocol: TCP
-    port: 3000
-    targetPort: 80
-    nodePort: placeholder
+    - protocol: TCP
+      port: 3000
+      targetPort: 80
+      nodePort: placeholder
