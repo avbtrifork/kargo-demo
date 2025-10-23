@@ -1,0 +1,17 @@
+apiVersion: v1
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Windseeker Preprod Environment</title>
+    </head>
+    <body>
+
+    <h1>Windseeker Preprod Environment</h1>
+
+    </body>
+    </html>
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
