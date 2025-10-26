@@ -12,6 +12,8 @@ spec:
       labels:
         app: kargo-demo
     spec:
+      imagePullSecrets:
+        - name: ghcr-pull-secret
       containers:
         - name: nginx
           image: ghcr.io/avbtrifork/kargo-demo-service1:tag_version
