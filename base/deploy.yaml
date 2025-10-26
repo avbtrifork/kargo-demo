@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/avbtrifork/kargo-demo-service1:<TAG_VERSION>
+          image: ghcr.io/avbtrifork/kargo-demo-service1:tag_version
           resources:
             requests:
               memory: "64Mi"
