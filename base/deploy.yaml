@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: public.ecr.aws/nginx/nginx:placeholder
+          image: ghcr.io/avbtrifork/kargo-demo-service1:<TAG_VERSION>
           resources:
             requests:
               memory: "64Mi"
