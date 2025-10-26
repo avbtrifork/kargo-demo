@@ -5,11 +5,11 @@ resources:
   - ../../base
   - configmap.yaml
 
-# patches:
-#   - target:
-#       kind: Service
-#       name: kargo-demo
-#     patch: |-
-#       - op: replace
-#         path: /spec/ports/0/nodePort
-#         value: 30081
+patches:
+  - target:
+      kind: Service
+      name: kargo-demo
+    patch: |-
+      - op: replace
+        path: /spec/ports/0/port
+        value: 3004
