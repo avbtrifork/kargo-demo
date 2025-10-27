@@ -11,5 +11,5 @@ patches:
       name: kargo-demo
     patch: |-
       - op: replace
-        path: /spec/ports/0/port
-        value: 3004
+        path: /spec/ports/0/nodePort
+        value: 30084
