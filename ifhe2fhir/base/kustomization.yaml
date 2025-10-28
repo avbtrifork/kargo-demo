@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
   - deploy.yaml
   - service.yaml
+  - docker-image-pull-secrets.yaml
