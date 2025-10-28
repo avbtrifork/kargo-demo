@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Windseeker Test Environment</title>
+    </head>
+    <body>
+
+    <h1>Windseeker Test Environment</h1>
+
+    </body>
+    </html>
