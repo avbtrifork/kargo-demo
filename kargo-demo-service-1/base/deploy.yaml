@@ -28,6 +28,7 @@ spec:
           # volumeMounts:
           # Adding a new change here to demonstrate a change detection
           #   - name: content
+          
           #     mountPath: /usr/share/nginx/html
           #     readOnly: true
       # volumes:
