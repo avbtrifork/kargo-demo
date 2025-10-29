@@ -1,1 +1,1 @@
-GitOps for the Non Prod envs
+GitOps for the Shared Epd Zone Windseeker
