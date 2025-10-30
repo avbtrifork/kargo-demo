@@ -5,6 +5,7 @@ resources:
   - ../../base
   - configmap.yaml
   - configmap-new.yaml
+  - configmap-new2.yaml
 # patches:
 #   - target:
 #       kind: Service

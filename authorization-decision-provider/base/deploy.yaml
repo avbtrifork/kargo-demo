@@ -28,6 +28,8 @@ spec:
           # volumeMounts:
           #   - name: content
           #     mountPath: /usr/share/nginx/html
+
+          
           #     readOnly: true
       # volumes:
       #   - name: content
