@@ -4,14 +4,14 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>Dev Auth Provider to overlay</title>
+    <title>Dev Test to overlay</title>
     </head>
     <body>
 
-    <h1>Dev Auth Provider</h1>
+    <h1>Dev</h1>
 
     </body>
     </html>
 kind: ConfigMap
 metadata:
-  name: kargo-demo-content
+  name: kargo-demo-content-new
