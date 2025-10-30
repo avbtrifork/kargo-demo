@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: kargo-demo-content-v2
+  name: kargo-demo-content-v3
 data:
   index.html: |-
     <!DOCTYPE html>
