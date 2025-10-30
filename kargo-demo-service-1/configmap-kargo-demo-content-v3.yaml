@@ -1,0 +1,17 @@
+apiVersion: v1
+data:
+  index.html: |-
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Dev Really Changed Something </title>
+    </head>
+    <body>
+
+    <h1>Dev</h1>
+
+    </body>
+    </html>
+kind: ConfigMap
+metadata:
+  name: kargo-demo-content-v3
