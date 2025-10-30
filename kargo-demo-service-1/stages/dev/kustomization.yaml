@@ -5,6 +5,7 @@ resources:
   - ../../base
   - configmap.yaml
   - configmapv2.yaml
+  - configmapv3.yaml
 
 patches:
   - target:
