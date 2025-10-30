@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - ../../base
   - configmap.yaml
+  - configmap-new.yaml
 # patches:
 #   - target:
 #       kind: Service

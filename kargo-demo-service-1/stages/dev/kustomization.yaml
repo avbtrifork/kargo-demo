@@ -6,6 +6,7 @@ resources:
   - configmap.yaml
   - configmapv2.yaml
   - configmapv3.yaml
+  - configmapv4.yaml
 
 patches:
   - target:
