@@ -4,13 +4,14 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-    <title>Windsee ker Environment</title>
+    <title>Dev Really Changed Somethin.  g </title>
     </head>
     <body>
-    <h1>Windseeker Test Environment</h1>
+
+    <h1>Dev</h1>
 
     </body>
     </html>
 kind: ConfigMap
 metadata:
-  name: kargo-demo-content
+  name: kargo-demo-content-v2
