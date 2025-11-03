@@ -16,7 +16,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: nginx
-          image: ghcr.io/avbtrifork/kargo-demo-service1:tag_version
+          image: ghcr.io/avbtrifork/ghcr.io/avbtrifork/fhir-facade:tag_version
           imagePullPolicy: Always
           resources:
             requests:
