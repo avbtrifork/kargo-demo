@@ -16,7 +16,7 @@ spec:
         - name: ghcr-pull-secret
       containers:
         - name: nginx
-          image: ghcr.io/avbtrifork/kargo-demo-service1:tag_version
+          image: ghcr.io/avbtrifork/ihe2fhir:tag_version
           imagePullPolicy: Always
           resources:
             requests:
@@ -25,11 +25,3 @@ spec:
             limits:
               memory: "128Mi"
               cpu: "500m"
-          # volumeMounts:
-          #   - name: content
-          #     mountPath: /usr/share/nginx/html
-          #     readOnly: true
-      # volumes:
-      #   - name: content
-      #     configMap:
-      #       name: kargo-demo-content
