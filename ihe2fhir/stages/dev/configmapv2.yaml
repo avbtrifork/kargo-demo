@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: kargo-demo-content-v2
+  name: kargo-demo-content-2
 data:
   index.html: |-
     <!DOCTYPE html>
     <html>
     <head>
-    <title>Test team Really Changed Somethin.  g </title>
+    <title>Dev  to overlay</title>
     </head>
     <body>
 
