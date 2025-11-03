@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: ghcr.io/avbtrifork/authorization-decision-provider:v1.0.1
+      - image: ghcr.io/avbtrifork/authorization-decision-provider:v1.0.3
         imagePullPolicy: Always
         name: nginx
         resources:
