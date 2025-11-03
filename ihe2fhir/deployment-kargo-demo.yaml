@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kargo-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kargo-demo
+  template:
+    metadata:
+      labels:
+        app: kargo-demo
+    spec:
+      containers:
+      - image: ghcr.io/avbtrifork/ihe2fhir:v1.0.0
+        imagePullPolicy: Always
+        name: nginx
+        resources:
+          limits:
+            cpu: 500m
+            memory: 128Mi
+          requests:
+            cpu: 250m
+            memory: 64Mi
+      imagePullSecrets:
+      - name: ghcr-pull-secret
