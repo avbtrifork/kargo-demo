@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: ghcr.io/avbtrifork/kargo-demo-service1:v1.3.0
+      - image: ghcr.io/avbtrifork/kargo-demo-service1:v1.5.0
         imagePullPolicy: Always
         name: nginx
         resources:
