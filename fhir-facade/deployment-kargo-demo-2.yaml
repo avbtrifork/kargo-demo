@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: kargo-demo
+  name: kargo-demo-2
 spec:
   replicas: 1
   selector:
@@ -13,7 +13,7 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - image: ghcr.io/avbtrifork/fhir-facade:v1.0.0
+      - image: ghcr.io/avbtrifork/fhir-facade:v1.0.3
         imagePullPolicy: Always
         name: nginx
         resources:
