@@ -15,8 +15,8 @@ spec:
       imagePullSecrets:
         - name: ghcr-pull-secret
       containers:
-        - name: nginx
-          image: ghcr.io/avbtrifork/authorization-decision-provider:tag_version
+        - name: fhir-facade
+          image: ghcr.io/avbtrifork/fhir-facade:1.0.0
           imagePullPolicy: Always
           resources:
             requests:
